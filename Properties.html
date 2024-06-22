@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>شركة مهند للتسويق العقاري</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>شركة مهند للتسويق العقاري</h1>
+      <nav>
+        <ul>
+          <li><a href="home.html">الصفحة الرئيسية</a></li>
+          <li><a href="AboutUs.html">من نحن</a></li>
+          <li><a href="Properties.html">العقارات</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="properties">
+        <h2>العقارات</h2>
+        <table class="properties-table">
+          <thead>
+            <tr>
+              <th>المدينة</th>
+              <th>تفاصيل</th>
+              <th>الإيجار الشهري</th>
+              <th>أظهر التفاصيل</th>
+              <th>اختيار</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="tr1">
+              <td>حمص</td>
+              <td>شقة 3 غرف نوم</td>
+              <td>25000 ل.س</td>
+              <td id="detailsElement1">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(1);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check1" type="checkbox" /></td>
+            </tr>
+            <tr id="tr2">
+              <td>دمشق</td>
+              <td>فيلا 4 غرف نوم</td>
+              <td>35000 ل.س</td>
+              <td id="detailsElement2">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(2);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check2" type="checkbox" /></td>
+            </tr>
+            <tr id="tr3">
+              <td>حلب</td>
+              <td>أرض تجارية</td>
+              <td>45000 ل.س</td>
+              <td id="detailsElement3">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(3);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check3" type="checkbox" /></td>
+            </tr>
+            <tr id="tr4">
+              <td>حماة</td>
+              <td>مكتب</td>
+              <td>25000 ل.س</td>
+              <td id="detailsElement4">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(4);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check4" type="checkbox" /></td>
+            </tr>
+            <tr id="tr5">
+              <td>حماة</td>
+              <td>محل تجاري</td>
+              <td>35000 ل.س</td>
+              <td id="detailsElement5">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(5);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check5" type="checkbox" /></td>
+            </tr>
+            <tr id="tr6">
+              <td>دمشق</td>
+              <td>مزرعة</td>
+              <td>45000 ل.س</td>
+              <td id="detailsElement6">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(6);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check6" type="checkbox" /></td>
+            </tr>
+            <tr id="tr7">
+              <td>حمص</td>
+              <td>شقة 2 غرف نوم</td>
+              <td>35000 ل.س</td>
+              <td id="detailsElement7">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(7);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check7" type="checkbox" /></td>
+            </tr>
+            <tr id="tr8">
+              <td>دمشق</td>
+              <td>فيلا 5 غرف نوم</td>
+              <td>25000 ل.س</td>
+              <td id="detailsElement8">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(8);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check8" type="checkbox" /></td>
+            </tr>
+            <tr id="tr9">
+              <td>حلب</td>
+              <td>أرض سكنية</td>
+              <td>45000 ل.س</td>
+              <td id="detailsElement9">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(9);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check9" type="checkbox" /></td>
+            </tr>
+            <tr id="tr10">
+              <td>دمشق</td>
+              <td>مكتب</td>
+              <td>25000 ل.س</td>
+              <td id="detailsElement10">
+                <button
+                  type="button"
+                  class="show-details-btn"
+                  onClick="showDetails(10);"
+                >
+                  عرض التفاصيل
+                </button>
+              </td>
+              <td><input id="check10" type="checkbox" /></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button
+          type="button"
+          class="show-details-btn"
+          onClick="toggleRentalForm()"
+        >
+          متابعة
+        </button>
+
+        <script src="myFunctions.js"></script>
+        <div id="rental-form" style="display: none">
+          <h2>نموذج طلب الإيجار</h2>
+          <form onsubmit="return verifyCaptcha()">
+            <label for="full-name">الاسم الكامل:</label>
+            <input
+              type="text"
+              id="full-name"
+              pattern="[A-Za-z\s]+"
+              required
+            /><br /><br />
+            <label for="national-id">الرقم الوطني:</label>
+            <input
+              type="text"
+              id="national-id"
+              pattern="[0-9]{11}"
+              required
+            /><br /><br />
+            <label for="date-of-birth">تاريخ الولادة:</label>
+            <input type="date" id="date-of-birth" required /><br /><br />
+            <label for="mobile-number">رقم الموبايل:</label>
+            <input
+              type="tel"
+              id="mobile-number"
+              pattern="[0-9]{10}"
+              required
+            /><br /><br />
+            <label for="email">الإيميل:</label>
+            <input type="email" id="email" required /><br /><br />
+            <br /><br />
+            <label>Captcha:</label>
+            <div>
+              <span id="captcha"></span>
+              <button type="button" onclick="generateCaptcha()">تحديث</button>
+              <script>
+                generateCaptcha();
+              </script>
+            </div>
+            <br />
+            <label for="user-captcha">أدخل الـ Captcha:</label>
+            <input type="text" id="user-captcha" required />
+            <br /><br />
+            <input type="submit" value="تقديم الطلب" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 شركة مهند للتسويق العقاري</p>
+    </footer>
+  </body>
+</html>
